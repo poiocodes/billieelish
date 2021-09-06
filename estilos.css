@@ -11,10 +11,10 @@ header {
 }
 
 .logo{ /* Contenedor de título principal */
-    padding: 20px 0px 20px 0px;
-    background-color: rgb(236, 196, 150);
-    width: 50px;
-    height: 50px;
+   
+    /* background-color: rgb(236, 196, 150); */
+    width: 415px;
+ 
     margin: 0 auto;
 }
 
@@ -38,12 +38,12 @@ nav {
 }
 
 .navegacion:hover{
-    background-color: teal;
+    background-color: #fdbca385;
 }
 
 .navegacion a { /* Enlaces */
     text-decoration: none;
-    color:whitesmoke;
+    color:#f5f5f5;
     font-weight: 800;
 }
 
