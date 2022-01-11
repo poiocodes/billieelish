@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--version 5-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- La configuración de idioma (Hebreo, Chino) , caracteres especiales (tildes, simbolos @&, la ñ)  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Navegadores - Internet explorer - Edge Viejo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ayuda que en el viewport se ajuste el contenido desde un inicio (más no es total responsivo - dispositivos etc) -->
+    <title>Billie Elish</title>
+
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- CSS - Interno -->
+
+    <!-- <style>
+
+body {
+
+    background-color: #d595e9f6;
+
+}
+
+</style> -->
+  </head>
+
+  <body>
+    <!-- Semantica HTML 
+        La semántica en el HTML y HTML5 
+        se refiere al significado o información extra que otorgan los
+         elementos o etiquetas del lenguaje -->
+
+    <header>
+      <!-- Contenedor -->
+      <!-- Css en Línea
+     <div style="background-color: royalblue ; ">
+    
+    -->
+      <div class="logo">
+        <img class="logoimagen" src="./imagenes/logo.png" alt="logo" />
+      </div>
+
+      <nav>
+        <!--  -->
+        <ul class="barradenavegacion">
+          <li class="navegacion"><a target="_blank" href="segundapagina.html"> BIO </a></li>
+          <li class="navegacion"><a href="#section1">INFO</a></li>
+          <li class="navegacion"><a href="#section2"> MUSIC </a></li>
+          <li class="navegacion"><a href="#section3">VIDEOS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Seccion- Parallax -->
+    <section>
+      <article>
+        <div class="parallax">
+          <div class="tituloparallax">
+            <h2>Happier Than Ever</h2>
+            <span class="parrafoparallax">
+              <a href="https://www.billieeilish.com/">Get Now</a>
+            </span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Seccion de Info del artista -->
+    <section id="section1">
+      <article>
+        <div class="informacion">
+          <p>
+            <span class="titulobillie">Who is Billie Elish?</span>
+
+            <!-- Salto de linea -->
+            <!-- Etiqueta vacia - No necesitan de cierta información como texto o contenido  -->
+            <br />
+            <br />
+            <br />
+
+            Billie Eilish Pirate Baird O'Connell (born December 18, 2001) is an
+            American singer and songwriter. She first gained public attention in
+            2015 with her debut single "Ocean Eyes", which was subsequently
+            released by Darkroom, a subsidiary of Interscope Records. The song
+            was written and produced by her brother, Finneas O'Connell, with
+            whom she frequently collaborates on music and in live shows. Her
+            debut extended play, Don't Smile at Me (2017), was commercially
+            successful and charted within the top 15 in the US, UK, Canada, and
+            Australia. Eilish's first studio album, When We All Fall Asleep,
+            Where Do We Go? (2019), debuted atop the US Billboard 200 and
+            reached number one in the UK. It was one of the best-selling albums
+            of 2019, buoyed by the success of its fifth single and Eilish's
+            first number-one hit on the Billboard Hot 100, "Bad Guy". In 2020,
+            she co-wrote and performed the theme song "No Time to Die" for the
+            James Bond film of the same name, which topped the UK singles chart.
+            Her next singles "Everything I Wanted", "My Future", "Therefore I
+            Am", and "Your Power" each peaked within the top 10 in the US and
+            UK.
+
+            <br />
+            <br />
+
+            <span class="titulobillie2"
+              >She is the youngest artist in Grammy history</span
+            >
+
+            <br />
+            <br />
+
+            Eilish has received several accolades, including seven Grammy
+            Awards, two American Music Awards, one Guinness World Record, three
+            MTV Video Music Awards, and two Brit Awards. She is the youngest
+            artist in Grammy history and second overall to win all four general
+            field categories—Best New Artist, Record of the Year, Song of the
+            Year, and Album of the Year—in the same year. She was named to Time
+            magazine's inaugural Time 100 Next list (2019). According to the
+            RIAA and Billboard, Eilish is the 26th-highest-certified digital
+            singles artist and one of the most successful artists of the 2010s.
+          </p>
+
+          <img src="imagenes/billie.jpg" alt="billie" />
+        </div>
+      </article>
+    </section>
+
+    <section id="section2" class="contentmusic">
+      <h2>MUSIC</h2>
+      <!-- Primer Container -->
+      <div class="container">
+        <!-- Primera carta -->
+        <div class="card">
+          <img src="imagenes/ALBUM6.jpg" alt="album6" />
+          <h4>Happier Than Ever</h4>
+          <p>30 de julio de 2021</p>
+          <a href="#">Leer más</a>
+        </div>
+
+        <!-- Segunda carta -->
+        <div class="card">
+          <img src="imagenes/ALBUM5.jpg" alt="album5" />
+          <h4>Billie Eilish When We All </h4>
+          <p>Año 2019</p>
+          <a href="#">Leer más</a>
+        </div>
+
+        <!-- Tercera carta -->
+        <div class="card">
+          <img src="imagenes/ALBUM4.jpg" alt="album4" />
+          <h4>No time to of die</h4>
+          <p>Año 2020</p>
+          <a href="#">Leer más</a>
+        </div>
+      </div>
+
+      <!-- Segundo container -->
+      <div class="container">
+
+        <!-- Cuarta carta -->
+        <div class="card">
+          <img src="imagenes/ALBUM3.jpg" alt="album3" />
+          <h4>Bad Guy</h4>
+          <p>Año 2018</p>
+          <a href="#">Leer más</a>
+        </div>
+
+        <!-- Quinta carta -->
+        <div class="card">
+        <img src="imagenes/ALBUM2.jpg" alt="album2">
+        <h4>Idontwannabeyouanymore</h4>
+        <p>Año 2017</p>
+        <a href="">Leer más</a>
+        </div>
+
+        <!-- Sexta Carta -->
+       
+        <div class="card">
+          <img src="imagenes/ALBUM1.jpg" alt="album1">
+          <h4>Ocean Eyes</h4>
+          <p>Año 2018</p>
+          <a href="">Leer más</a>
+        </div>
+      </div>
+    </section>
+
+
+    
+  <section id="section3">
+    <div class="videos">
+      <div class="imagensection">
+    
+    <img src="imagenes/TIME100.png" alt="logo">
+  
+    
+      </div>
+
+
+      <div class="iframeprincipal">
+
+
+        <!-- <video controls src=""></video> -->
+
+        <!-- Permite colocar un elemento HTML dentro de otro objeto HTML principal -->
+        <iframe 
+        allow="autoplay; fullscreen; encrypted-media" 
+        frameborder="0" allowfullscreen="" 
+        title="YouTube video player" width="700px" 
+        height="400px" src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%225GJWxDKyk3A%22%7D&amp;video_id=5GJWxDKyk3A" 
+        data-id="0"></iframe>
+
+      </div>
+
+<div class="iframes">
+  
+<iframe  
+allow="autoplay; fullscreen; encrypted-media" frameborder="0"
+allowfullscreen="" title="YouTube video player" width="500px"
+height="300px" src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%22DyDfgMOUjCI%22%7D&amp;video_id=DyDfgMOUjCI" 
+data-id="0"></iframe>
+
+<iframe  allow="autoplay; fullscreen; encrypted-media" 
+frameborder="0" allowfullscreen="" title="YouTube video player"
+ width="500px" height="300px" src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%22DyDfgMOUjCI%22%7D&amp;video_id=DyDfgMOUjCI" 
+ data-id="0"></iframe>
+
+</div>
+    
+    </div>
+  
+        </section>
+
+        <!-- pie de página -->
+        <footer>
+
+         <div class="final">
+
+          <p>© 2021 Darkroom/Interscope Records </p>
+
+         </div>
+
+        </footer>
+
+  </body>
+</html>
